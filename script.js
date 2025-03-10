@@ -1,14 +1,28 @@
-function check() {
-    form = document.getElementById("login")
-    let login = form.children[0].value
-    let password = form.children[1].value
-    let button = form.children[3].children[0]
+const inputs = document.querySelectorAll('.input');
+const button = document.querySelector('.login__button');
 
-    if (login.length > 0 && password.length > 0) {
-        button.classList.add("btn-active")
-        button.disabled = false
-    } else {
-        button.classList.remove("btn-active")
-        button.disabled = true
+const handleFocus = ({ target }) => {
+    const span = target.previousElementSibling;
+    span.classList.add('span-active');
+}
+
+const handleFocusOut = ({ target }) => {
+    if (target.value === '') {
+        const span = target.previousElementSibling;
+        span.classList.remove('span-active');
     }
 }
+
+const handleChange = () => {
+    const [username, password] = inputs;
+
+    if (username.value && password.value.length >= 8) {
+        button.removeAttribute('disabled');
+    } else {
+        button.setAttribute('disabled', '');
+    }
+}
+
+inputs.forEach((input) => input.addEventListener('focus', handleFocus));
+inputs.forEach((input) => input.addEventListener('focusout', handleFocusOut));
+inputs.forEach((input) => input.addEventListener('input', handleChange));
