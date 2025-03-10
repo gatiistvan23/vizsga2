@@ -52,6 +52,7 @@ main {
     max-width: 500px;
     min-height: 100vh;
     padding: clamp(35px, 8%, 70px);
+    height: 100vh;
 }
 
 .wrapper {
@@ -93,6 +94,13 @@ main {
     padding: 25px 10px 10px;
     font-weight: 600;
     color: var(--deep-grey);
+}
+.login__link {
+    color: var(--blue);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.9em;
+    margin-top: 10px;
 }
 
 .login__label span {
@@ -231,4 +239,24 @@ main {
 .login__button {
     color: white;
     background-color: #CF3C3F;
+}
+.facebook {
+    background-color: #1B77F3;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.google {
+    background-color: #CF3C3F;
+    color: white;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.apple {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-right: 10px;
 }
