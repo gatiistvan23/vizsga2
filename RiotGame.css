@@ -1,5 +1,83 @@
+header {
+    border-radius: black solid 3px;
+    text-align: justify;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+em {
+    font-style: italic;
+    text-align: justify;    
+}
 body{
     background-color: aquamarine;
     color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h2, h3 {
+    text-align: left;
+    font-size: 25px;    
+}
+
+p {
+    text-align: justify;
+    text-transform: none;
+    font-size: 20px;
+    margin: 10px;
+}
+ul {
+    text-align: justify;
+    text-transform: none;
+    font-size: 20px;
+    margin: 10px;
+}
+li {
+    text-decoration: none;
+    list-style-type: square;
+    margin: 0px;
+    padding: 0px;
+}
+#picture {
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    width: 25%;
+    height: 25%;
+    border: black solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.footer {
+    text-align: justify;
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    margin: 10px;   
+    border-radius: black solid 3px;     
+}
+#pictures_li {
+    text-align: left;
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    
+
+}
+.sorolva {
+    justify-content: center;
+}
+
+a {
+    text-decoration: underline;
+    color: darkmagenta;
+    grid-column: initial;
 }
     
