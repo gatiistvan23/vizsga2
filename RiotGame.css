@@ -6,6 +6,7 @@ header {
     padding: 10px;
     margin: 10px;
     text-align: center;
+    font-family: cursive;
 }
 em {
     font-style: italic;
@@ -14,6 +15,8 @@ em {
 body{
     background-color: aquamarine;
     color: black;
+    text-align: justify;
+    font-family: cursive;
 }
 
 h1 {
@@ -66,18 +69,73 @@ li {
 #pictures_li {
     text-align: left;
     border: 2px solid black;
-    width: 100px;
-    height: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    align-content: stretch;
     
-
+}
+#pictures_li2 {
+    text-align: left;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    align-content: stretch;
+       
+    
+}
+#pictures_li3 {
+    text-align: left;
+    border: 2px solid black;  
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px);
+    align-content: stretch;
+    
+}
+#pictures_li4 {
+    text-align: left;
+    border: 2px solid black;   
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(2, 100px); 
+    align-content: stretch;
 }
 .sorolva {
-    justify-content: center;
+    justify-content: center; 
 }
 
 a {
     text-decoration: underline;
     color: darkmagenta;
     grid-column: initial;
+}
+
+.container-header {
+    border: black solid 2px;
+}
+
+.container-body {
+    border: white solid 1px;
+}
+
+hr {
+    border: 1px solid gray;
+    margin: 10px;
+}
+
+.container-footer {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+    border-radius: grey solid 3px;
+}
+strong {
+    font-weight: bold;
+    text-align: justify;
+    font-family: cursive;
 }
     
