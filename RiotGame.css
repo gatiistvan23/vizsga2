@@ -80,8 +80,8 @@ li {
     text-align: left;
     border: 2px solid black;
     display: grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(-2, 100px);
+    grid-template-rows: repeat(-2, 100px);
     align-content: stretch;
     border-radius: 5px;        
 }
@@ -89,11 +89,10 @@ li {
     text-align: left;
     border: 2px solid black;
     display: grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(2, 100px);
+    grid-template-columns: repeat(-2, 100px);
+    grid-template-rows: repeat(-2, 100px);
     align-content: stretch;
-    border-radius: 5px;
-       
+    border-radius: 5px;       
     
 }
 #pictures_li3 {
