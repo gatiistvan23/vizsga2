@@ -79,46 +79,55 @@ li {
 #pictures_li {
     text-align: left;
     border: 2px solid black;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(-2, 100px);
     grid-template-rows: repeat(-2, 100px);
     align-content: stretch;
-    border-radius: 5px;        
+    border-radius: 5px;     
+    justify-items: start;   
 }
 #pictures_li2 {
     text-align: left;
     border: 2px solid black;
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(-2, 100px);
     grid-template-rows: repeat(-2, 100px);
     align-content: stretch;
-    border-radius: 5px;       
+    border-radius: 5px;   
+    justify-items: center;      
     
 }
 #pictures_li3 {
     text-align: left;
     border: 2px solid black;  
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 100px);
     grid-template-rows: repeat(2, 100px);
     align-content: stretch;
     border-radius: 5px;
+    justify-items: center;
     
 }
 #pictures_li4 {
     text-align: left;
     border: 2px solid black;   
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 100px);
     grid-template-rows: repeat(2, 100px); 
     align-content: stretch;
     border-radius: 5px;
+    justify-items: flex-end;
 }
 .sorolva {
-    justify-content: center; 
-    display: flexbox;
-    flex-wrap: space-between;
-    margin: 0 auto;   
+    justify-content: left; 
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(-2, 100px);
+    align-content: stretch;
+    border-radius: 5px;
+    margin: 0px;
+    padding: 0px;      
+    
 }
 
 a {
