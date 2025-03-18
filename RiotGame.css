@@ -85,6 +85,9 @@ li {
     align-content: stretch;
     border-radius: 5px;     
     justify-items: start;   
+    align-items: self-start;
+    gap: 10px;
+    
 }
 #pictures_li2 {
     text-align: left;
@@ -94,7 +97,9 @@ li {
     grid-template-rows: repeat(-2, 100px);
     align-content: stretch;
     border-radius: 5px;   
-    justify-items: center;      
+    justify-items: center;   
+    align-items: center;
+    gap: 10px;     
     
 }
 #pictures_li3 {
@@ -105,7 +110,9 @@ li {
     grid-template-rows: repeat(2, 100px);
     align-content: stretch;
     border-radius: 5px;
-    justify-items: center;
+    justify-items: center;    
+    align-items: center;
+    gap: 10px;
     
 }
 #pictures_li4 {
@@ -117,6 +124,9 @@ li {
     align-content: stretch;
     border-radius: 5px;
     justify-items: flex-end;
+    align-items: self-end;
+    gap: 10px;
+    
 }
 .sorolva {
     justify-content: left; 
