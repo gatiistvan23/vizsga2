@@ -76,55 +76,39 @@ li {
     margin: 10px;   
     border-radius: black solid 3px;     
 }
-#pictures_li {
-    text-align: left;
+#pictures_li {    
     border: 2px solid black;
     display: flex;
-    grid-template-columns: repeat(-2, 100px);
-    grid-template-rows: repeat(-2, 100px);
-    align-content: stretch;
-    border-radius: 5px;     
-    justify-items: start;   
-    align-items: self-start;
+    background-repeat: no-repeat;
+    background-position: left top;    
+    border-radius: 5px;    
     gap: 10px;
     
 }
 #pictures_li2 {
-    text-align: left;
     border: 2px solid black;
     display: flex;
-    grid-template-columns: repeat(-2, 100px);
-    grid-template-rows: repeat(-2, 100px);
-    align-content: stretch;
-    border-radius: 5px;   
-    justify-items: center;   
-    align-items: center;
-    gap: 10px;     
+    background-repeat: no-repeat;
+    background-position: right top;    
+    border-radius: 5px;    
+    gap: 10px;   
     
 }
 #pictures_li3 {
-    text-align: left;
-    border: 2px solid black;  
+    border: 2px solid black;
     display: flex;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(2, 100px);
-    align-content: stretch;
-    border-radius: 5px;
-    justify-items: center;    
-    align-items: center;
+    background-repeat: no-repeat;
+    background-position: right;    
+    border-radius: 5px;    
     gap: 10px;
     
 }
 #pictures_li4 {
-    text-align: left;
-    border: 2px solid black;   
+    border: 2px solid black;
     display: flex;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: repeat(2, 100px); 
-    align-content: stretch;
-    border-radius: 5px;
-    justify-items: flex-end;
-    align-items: self-end;
+    background-repeat: no-repeat;
+    background-position: left ;    
+    border-radius: 5px;    
     gap: 10px;
     
 }
@@ -142,7 +126,7 @@ li {
 
 a {
     text-decoration: underline;
-    color: darkmagenta;
+    color: darkblue;
     grid-column: initial;
 }
 
